@@ -1,4 +1,4 @@
-# FLEXT-Time-Entry-System
+# FLEX-Time-Entry-System
 This project is a summer 2019 software engineering group project assigned from the course professor that 
 addreses the following needs:
 Automate a fictious organization time tracking system from a manual (spreadsheet) to a systems based application
