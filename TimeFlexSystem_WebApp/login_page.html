@@ -10,9 +10,12 @@
   <link rel="stylesheet" href="css/login_page.css">
 </head>
 <body class="body page-login_page clearfix">
-  <p class="pin title">Please Enter 4 Digit PIN</p>
-  <input class="_input" name="PIN" type="password">
-  <button onClick="window.location='admin_page.html';" class="_button _button-1">&nbsp; &nbsp; &nbsp; Login &nbsp; &nbsp; &nbsp; ADMIN</button>
-  <button onClick="window.location='user_page.html';" class="_button _button-2">&nbsp; &nbsp; &nbsp; Login &nbsp; &nbsp; &nbsp; &nbsp;USER</button>
+
+  <form method="post" action="mysqli_connect.php">
+    <label for="PIN" class="pin title"> Please Enter 4 Digit PIN </label>
+    <input class="_input" name="PIN" type="password">
+    <button onClick="window.location='admin_page.html';" class="_button _button-1">&nbsp; &nbsp; &nbsp; Login &nbsp; &nbsp; &nbsp; ADMIN</button>
+    <button type="submit" class="_button _button-2">&nbsp; &nbsp; &nbsp; Login &nbsp; &nbsp; &nbsp; &nbsp;USER</button>
+  </form>
 </body>
 </html>

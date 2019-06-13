@@ -28,10 +28,6 @@ body {
   text-align: center;
   color: rgb(0, 0, 0);
 }
-._calendar {
-  float: right;
-  position: static;
-}
 
 .text-1 {
   position: relative;
