@@ -8,14 +8,21 @@
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/user_page-grid.css">
   <link rel="stylesheet" href="css/user_page.css">
+
+
 </head>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
 <body class="body page-user_page clearfix">
   <p class="text text-1">Dashboard</p>
-  <p class="text text-2">Calendar</p>
-  <button class="_button _button-1" type="button">Time In / Time Out</button>
-  <button class="_button _button-2">Work Report</button>
-  <button class="_button _button-3">Send Request</button>
-  <button class="_button _button-4">Employee Contacts</button>
-  <button class="_button _button-5">Profile&nbsp;</button>
+
+  <button class="_button _button-1" onclick ="document.location.href='http://192.168.64.2/TimeFlexSystem_WebApp/index.php'" >Time In  Time Out</button>
+  <button class="_button _button-2" onclick = "document.location.href = 'http://192.168.64.2/TimeFlexSystem_WebApp/weekly-report.php'">Weekly Report</button>
+  <button class="_button _button-3" onclick = "document.location.href = 'http://192.168.64.2/TimeFlexSystem_WebApp/weekly-time-clock.php'">Weekly Time Clock </button>
+  <button class="_button _button-4" onclick = "document.location.href='http://192.168.64.2/TimeFlexSystem_WebApp/employee-records.php'">Employee Contacts</button>
+
+
 </body>
 </html>

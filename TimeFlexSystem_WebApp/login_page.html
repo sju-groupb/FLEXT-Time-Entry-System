@@ -4,18 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0">
   <title>login_page</title>
-  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,400" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/login_page-grid.css">
   <link rel="stylesheet" href="css/login_page.css">
 </head>
 <body class="body page-login_page clearfix">
 
-  <form method="post" action="mysqli_connect.php">
-    <label for="PIN" class="pin title"> Please Enter 4 Digit PIN </label>
-    <input class="_input" name="PIN" type="password">
-    <button onClick="window.location='admin_page.html';" class="_button _button-1">&nbsp; &nbsp; &nbsp; Login &nbsp; &nbsp; &nbsp; ADMIN</button>
-    <button type="submit" class="_button _button-2">&nbsp; &nbsp; &nbsp; Login &nbsp; &nbsp; &nbsp; &nbsp;USER</button>
-  </form>
+<form method="post" action="authenticate.php">
+  <label for = "EmployeeID" class ="pin title">Please Enter 4 Digit PIN </label>
+  <input class="_input" id = "EmployeeID" name="EmployeeID" type="password">
+  <button  type = "submit" class="_button">&nbsp; &nbsp; &nbsp; Login &nbsp; &nbsp; &nbsp; &nbsp;</button>
+</form>
 </body>
 </html>
